@@ -17,3 +17,5 @@ spec:
         image: mbasav/cicd-app:latest
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: dockerhub-creds
